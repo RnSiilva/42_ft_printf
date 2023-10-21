@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 19:22:18 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/21 02:33:47 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/21 19:32:42 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,3 +57,11 @@ int	ft_printf(const char *str, ...)
 	va_end(ap);
 	return (count);
 }
+
+// int	main(void)
+// {
+// 	int	l;
+// 	l = ft_printf("Hello %d\n", 42);
+// 	ft_printf("%d", l);
+// 	return (0);
+// }

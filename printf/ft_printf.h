@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 21:57:27 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/21 02:29:50 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/21 19:31:56 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,6 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include <unistd.h>
-# include <stdlib.h>
-# include <stdio.h>
-# include <string.h>
 # include "libft/libft.h"
 
 int	ft_printf(const char *str, ...);

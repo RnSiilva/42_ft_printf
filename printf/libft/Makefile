@@ -6,7 +6,7 @@
 #    By: resilva <resilva@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/16 21:48:40 by resilva           #+#    #+#              #
-#    Updated: 2023/10/17 21:57:37 by resilva          ###   ########.fr        #
+#    Updated: 2023/10/21 19:46:59 by resilva          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,10 +25,9 @@ PART2 = ft_split.c ft_strjoin.c ft_strtrim.c ft_striteri.c ft_strmapi.c \
 BONUS = ft_lstsize.c ft_lstlast.c ft_lstnew.c ft_lstadd_back.c ft_lstadd_front.c \
 			ft_lstiter.c ft_lstdelone.c ft_lstclear.c ft_lstmap.c
 
-SRC = ${PART1} ${PART2}
+SRC = ${PART1} ${PART2} ${BONUS}
 
 OBJS = ${SRC:.c=.o}
-BONUS_OBJS = ${BONUS:.c=.o}
 
 CC = cc
 RM = rm -f
@@ -43,11 +42,8 @@ $(NAME): ${OBJS}
 
 all:	${NAME}
 
-bonus:	${OBJS} ${BONUS_OBJS}
-			ar rcs ${NAME} ${OBJS} ${BONUS_OBJS}
-
 clean:
-			${RM} ${OBJS} ${BONUS_OBJS}
+			${RM} ${OBJS}
 
 fclean: 	clean
 			${RM} ${NAME}
