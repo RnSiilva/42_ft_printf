@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 20:52:01 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/21 01:51:52 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 17:53:34 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,18 @@ int	ft_print_str(char *str)
 	}
 	return (i);
 }
+
+// int main(void) 
+// {
+//     char	*str = "School42Porto";
+// 	int		len;
+
+// 	ft_printf("\n\t >>> ft_ <<<\n");
+// 	len = ft_print_str(str);
+// 	ft_printf("\nlen ft_: %d\n\n", len);
+
+// 	printf("\n\t >>> orig <<<\n");
+// 	len = printf("%s", str);
+// 	printf("\nlen org: %d\n\n", len);
+//     return (0);
+// }

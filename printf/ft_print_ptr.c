@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 21:17:28 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/21 17:34:33 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 17:53:38 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,16 +59,17 @@ int	ft_print_ptr(unsigned long long ptr)
 	return (count);
 }
 
-// int main() {
-//     void* ptr = NULL;
-//     printf("Pointer value: %p\n", ptr);
-//     return 0;
-// }
+// int main(void) 
+// {
+//     void	*ptr = "42Porto";
+// 	int		len;
 
-// int main (void) {
-//    int i = 1234; 
-//    printf (" i = %d\n", i);
-//    printf ("&i = %ld\n", (long) &i);
-//    printf ("&i = %p\n", &i);
-//    return EXIT_SUCCESS;
+// 	ft_printf("\n\t >>> ft_ <<<\n");
+// 	len = ft_print_ptr((long)ptr);
+// 	ft_printf("\nlen ft_: %d\n\n", len);
+
+// 	printf("\n\t >>> orig <<<\n");
+// 	len = printf("%p", ptr);
+// 	printf("\nlen org: %d\n\n", len);
+//     return (0);
 // }

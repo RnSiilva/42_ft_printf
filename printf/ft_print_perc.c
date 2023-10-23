@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 21:36:35 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/21 01:53:03 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 17:30:58 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,3 +17,17 @@ int	ft_print_perc(void)
 	write(1, "%", 1);
 	return (1);
 }
+
+// int	main(void)
+// {
+// 	int	len;
+
+// 	ft_printf("\n\t >>> ft_ <<<\n");
+// 	len = ft_print_perc();
+// 	ft_printf("\nlen ft_: %d\n\n", len);
+
+// 	printf("\n\t >>> orig <<<\n");
+// 	len = printf("%%");
+// 	printf("\nlen org: %d\n\n", len);
+// 	return (0);
+// }

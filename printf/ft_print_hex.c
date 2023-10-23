@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 22:05:35 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/21 02:27:45 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 17:25:24 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,3 +57,20 @@ int	ft_print_hex(unsigned int n, const char format)
 		ft_put_hex(n, format);
 	return (ft_hex_len(n));
 }
+
+// int	main(void)
+// {
+// 	int				len;
+// 	unsigned int	n;
+
+// 	n = 42;
+
+// 	ft_printf("\n\t >>> ft_ <<<\n");
+// 	len = ft_print_hex(n, 'x');
+// 	ft_printf("\nlen ft_: %d\n\n", len);
+
+// 	printf("\n\t >>> orig <<<\n");
+// 	len = printf("%x", n);
+// 	printf("\nlen org: %d\n\n", len);
+// 	return (0);
+// }
