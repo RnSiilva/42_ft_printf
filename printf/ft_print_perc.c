@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 21:36:35 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/23 17:30:58 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 22:48:18 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 
 int	ft_print_perc(void)
 {
-	write(1, "%", 1);
-	return (1);
+	return (write(1, "%", 1));
 }
 
 // int	main(void)

@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 21:40:55 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/23 17:53:45 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 22:50:36 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_n_size(unsigned int n)
 	while (n)
 	{
 		size++;
-		n = n / 10;
+		n /= 10;
 	}
 	return (size);
 }
@@ -39,7 +39,7 @@ char	*ft_uitoa(unsigned int n)
 	{
 		size--;
 		str[size] = n % 10 + '0';
-		n = n / 10;
+		n /= 10;
 	}
 	return (str);
 }

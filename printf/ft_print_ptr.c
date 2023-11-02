@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 21:17:28 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/23 17:53:38 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 22:48:52 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_len_ptr(unsigned long long ptr)
 	while (ptr)
 	{
 		count++;
-		ptr = ptr / 16;
+		ptr /= 16;
 	}
 	return (count);
 }
@@ -54,7 +54,7 @@ int	ft_print_ptr(unsigned long long ptr)
 	{
 		count = write(1, "0x", 2);
 		ft_put_ptr(ptr);
-		count = count + ft_len_ptr(ptr);
+		count += ft_len_ptr(ptr);
 	}
 	return (count);
 }

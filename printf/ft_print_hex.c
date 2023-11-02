@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 22:05:35 by resilva           #+#    #+#             */
-/*   Updated: 2023/10/23 17:25:24 by resilva          ###   ########.fr       */
+/*   Updated: 2023/10/23 22:49:42 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_hex_len(unsigned int n)
 	while (n != 0)
 	{
 		len++;
-		n = n / 16;
+		n /= 16;
 	}
 	return (len);
 }
